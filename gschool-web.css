@@ -1,0 +1,155 @@
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css); */
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css); */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0;
+  margin:0;
+}
+a {
+  text-decoration:none
+}
+
+.container {
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-logo {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 27px;
+  color: #212121;
+  padding: 26px 0;
+}
+
+.all-header-list {
+  padding: 26px 0;
+}
+.header-list {
+  font-family:'Spoqa Han Sans Neo', sans-serif; 
+  font-size: 15px;
+  color: #212121;
+  padding: 0 12px;
+}
+
+.header-list:hover {
+  color: #2C44AA;
+}
+.admission {
+  padding-left: 5.2px;
+  border: 1px lightgray solid;
+  padding: 6px 26px;
+  margin-left: 5px;
+  font-size: 13px;
+  color: gray;
+}
+
+.admission:hover {
+ border-color: #2C44AA; 
+ background-color:#2C44AA;
+ color: white;
+ transition: 0.5s;
+}
+
+.pen-icon {
+  font-size: 12px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#video {
+  width:100vw;
+  height:100vw;
+}
+
+.under-video-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 1440px;
+  height: 205px;
+}
+
+.under-video {
+ font-family:'Spoqa Han Sans Neo', sans-serif;
+ font-size: 26px;
+ font-weight: bold;
+ width: 1040px;
+ height: 55px;
+ margin: 10px 0;
+}
+
+.under-video-2 {
+  font-family:'Spoqa Han Sans Neo', sans-serif;
+  font-size: 14px;
+  color: #404040;
+  width: 1016px;
+  height: 23px;
+}
+
+
+.box1-container {
+  padding: 24px;
+  width: 298.66px;
+  height: 171.5px;
+  background-color: #2C44AA;
+  color: white;
+  font-family:'Spoqa Han Sans Neo', sans-serif;
+}
+
+
+.box2-container {
+  padding: 24px;
+  width: 298.66px;
+  height: 171.5px;
+  background-color: #001255;
+  color: white;
+  font-family:'Spoqa Han Sans Neo', sans-serif;
+}
+
+.box3-container {
+  padding: 24px;
+  width: 298.66px;
+  height: 171.5px;
+  background-color:#2C44AA;
+  color: white;
+  font-family:'Spoqa Han Sans Neo', sans-serif;
+}
+
+.box-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.box-content {
+  font-size: 14px;
+}
+
+.more {
+  font-size: 12px;
+}
+
+.all-boxes {
+  height: 249.5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+
+}
