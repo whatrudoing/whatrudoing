@@ -11,15 +11,14 @@
 }
 
 a {
-  text-decoration:none
+  text-decoration: none
 }
 
 /* header 시작 */
 header {
-  font-family:'SpoqaHanSansNeo-light';
+  font-family: 'SpoqaHanSansNeo-light';
   display: flex;
   height: 6.2083vw;
-  background-color: white;
   justify-content: space-between;
 }
 
@@ -45,21 +44,22 @@ header {
   margin-left: 6.25vw;
 }
 
-a.header-list:link { 
-  text-decoration:none 
+a.header-list:link {
+  text-decoration: none
 }
 
-a.header-list:visited { 
-  text-decoration:none 
+a.header-list:visited {
+  text-decoration: none
 }
 
-a.header-list:hover { 
-  text-decoration:underline 
+a.header-list:hover {
+  text-decoration: underline
 }
 
-a.header-list:active { 
-  text-decoration:none 
+a.header-list:active {
+  text-decoration: none
 }
+
 /* header 끝 */
 
 /* 메인페이지 what are you doing? 단어 분할 화면 시작 */
@@ -69,13 +69,14 @@ a.header-list:active {
   font-weight: bold;
   font-size: 7.9861vw;
   width: 83.333vw;
-  margin: 0 6.9444vw;
   position: relative;
   text-align: center;
   height: 49vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
 
-.main-page-words-1{
+.main-page-words-1 {
   width: 21.5278vw;
   height: 9.1667vw;
   position: absolute;
@@ -83,7 +84,7 @@ a.header-list:active {
   top: 1.3889vw;
 }
 
-.main-page-words-2{
+.main-page-words-2 {
   width: 13.3333vw;
   height: 9.1667vw;
   position: absolute;
@@ -91,7 +92,7 @@ a.header-list:active {
   top: 14.4028vw;
 }
 
-.main-page-words-3{
+.main-page-words-3 {
   width: 15.0694vw;
   height: 9.1667vw;
   position: absolute;
@@ -99,7 +100,7 @@ a.header-list:active {
   bottom: 11.0833vw;
 }
 
-.main-page-words-4{
+.main-page-words-4 {
   width: 23.5417vw;
   height: 9.1667vw;
   position: absolute;
@@ -107,21 +108,38 @@ a.header-list:active {
   bottom: 6.25vw;
 }
 
-.main-page-words-5{
+.main-page-words-5 {
   width: 4.6528vw;
   height: 9.1667vw;
   position: absolute;
   top: 2.7083vw;
   right: 5.9722vw;
 }
+
 /* 메인페이지 what are you doing? 단어 분할 화면 끝 */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-snap-align: start;
+}
 
 .content-1 {
   background-color: black;
   height: 55.5556vw;
 }
 
-.content-1-sentence{
+.content-1-sentence {
   color: white;
   font-family: 'graphik-bold';
   font-size: 8.3333vw;
@@ -143,31 +161,35 @@ a.header-list:active {
   top: 18.5417vw;
   position: relative;
 } */
-.sentence-hover{
+.sentence-hover {
   color: white;
-  font-family:'SpoqaHanSansNeo-normal';
+  font-family: 'SpoqaHanSansNeo-normal';
   font-size: 2.0833vw;
   position: absolute;
 }
-.sentence-hover-1{
+
+.sentence-hover-1 {
   width: 14.7222vw;
   height: 2.7778vw;
   left: 42.6389vw;
   top: 31.5278vw;
 }
-.sentence-hover-2{
+
+.sentence-hover-2 {
   width: 19.9306vw;
   height: 2.7778vw;
   left: 40.0694vw;
   top: 36.3194vw;
 }
-.sentence-hover-3{
+
+.sentence-hover-3 {
   width: 28.4028vw;
   height: 2.7778vw;
   left: 35.8333vw;
   top: 41.1111vw;
 }
+
 .content-2 {
-  background-color:white;
+  background-color: white;
   height: 55.5556vw;
 }

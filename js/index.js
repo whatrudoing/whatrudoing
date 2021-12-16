@@ -1,14 +1,17 @@
-window.addEventListener('scroll', function () {
+var headers = document.querySelectorAll(".header-list");
+const container = document.querySelector(".container");
 
-});
-
-
-var goup = document.getElementById("top");
-
-window.addEventListener('scroll', function() {
-  if (window.pageYOffset >= 400) {
-    goup.style.display = "block";
-  } else {
-    goup.style.display = "none";
-  }
-})
+headers.forEach(function(header){
+  container.addEventListener('scroll', function(){
+    console.log(container.scrollTop)
+    if (container.scrollTop >=0) {
+      header.style.color = 'black'
+    }
+    if (container.scrollTop >=750) {
+      header.style.color = '#ffff'
+    }
+    if (container.scrollTop >=1550) {
+      header.style.color = 'black'
+    }
+  })
+}) 
