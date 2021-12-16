@@ -13,18 +13,14 @@
 a {
   text-decoration:none
 }
+
 /* header 시작 */
 header {
-  font-family: 'SpoqaHanSansNeo-light';
+  font-family:'SpoqaHanSansNeo-light';
   display: flex;
-  height: 5.9028vw;
+  height: 6.2083vw;
   background-color: white;
   justify-content: space-between;
-}
-
-.header-all-list {
-  display: flex;
-  margin-right: 6.9444vw;
 }
 
 .header-logo {
@@ -33,6 +29,13 @@ header {
   padding: 1.0417vw 0;
   margin-left: 6.25vw;
   padding-bottom: 2.0833vw;
+  position: fixed;
+}
+
+.header-all-list {
+  display: flex;
+  margin-left: 60vw;
+  position: fixed;
 }
 
 .header-list {
@@ -64,12 +67,12 @@ a.header-list:active {
   font-family: 'graphik';
   font-style: normal;
   font-weight: bold;
-  font-size: 8.3333vw;
-  height: 41.6667vw;
+  font-size: 7.9861vw;
   width: 83.333vw;
-  margin: 1.3889vw 6.9444vw;
+  margin: 0 6.9444vw;
   position: relative;
   text-align: center;
+  height: 49vw;
 }
 
 .main-page-words-1{
@@ -77,22 +80,23 @@ a.header-list:active {
   height: 9.1667vw;
   position: absolute;
   left: 2.5694vw;
+  top: 1.3889vw;
 }
 
 .main-page-words-2{
   width: 13.3333vw;
   height: 9.1667vw;
   position: absolute;
-  left: 41.3889vw;
-  top: 13.4028vw;
+  left: 38.3889vw;
+  top: 14.4028vw;
 }
 
 .main-page-words-3{
   width: 15.0694vw;
   height: 9.1667vw;
   position: absolute;
-  left: 6.5972vw;
-  bottom: 7.0833vw;
+  left: 4.5972vw;
+  bottom: 11.0833vw;
 }
 
 .main-page-words-4{
@@ -100,7 +104,7 @@ a.header-list:active {
   height: 9.1667vw;
   position: absolute;
   right: 2.5vw;
-  bottom: 0.9722vw;
+  bottom: 6.25vw;
 }
 
 .main-page-words-5{
@@ -111,3 +115,59 @@ a.header-list:active {
   right: 5.9722vw;
 }
 /* 메인페이지 what are you doing? 단어 분할 화면 끝 */
+
+.content-1 {
+  background-color: black;
+  height: 55.5556vw;
+}
+
+.content-1-sentence{
+  color: white;
+  font-family: 'graphik-bold';
+  font-size: 8.3333vw;
+  width: 84.6528vw;
+  height: 9.1667vw;
+  left: 7.7083vw;
+  top: 18.5417vw;
+  position: relative;
+}
+
+/* .content-1-sentence{
+  color: black;
+  -webkit-text-stroke: 1px white;
+  font-family: 'graphik-bold';
+  font-size: 8.3333vw;
+  width: 84.6528vw;
+  height: 9.1667vw;
+  left: 7.7083vw;
+  top: 18.5417vw;
+  position: relative;
+} */
+.sentence-hover{
+  color: white;
+  font-family:'SpoqaHanSansNeo-normal';
+  font-size: 2.0833vw;
+  position: absolute;
+}
+.sentence-hover-1{
+  width: 14.7222vw;
+  height: 2.7778vw;
+  left: 42.6389vw;
+  top: 31.5278vw;
+}
+.sentence-hover-2{
+  width: 19.9306vw;
+  height: 2.7778vw;
+  left: 40.0694vw;
+  top: 36.3194vw;
+}
+.sentence-hover-3{
+  width: 28.4028vw;
+  height: 2.7778vw;
+  left: 35.8333vw;
+  top: 41.1111vw;
+}
+.content-2 {
+  background-color:white;
+  height: 55.5556vw;
+}
