@@ -120,6 +120,42 @@ a.header-list:active {
 
 /* 메인페이지 what are you doing? 단어 분할 화면 끝 */
 
+/* scroll down start */
+
+.scroll-down {
+  position: absolute;
+  font-size: 15px;
+  /* font-family: ; */
+  height: 20px;
+  width: 100px;
+  color: black;
+  top: 87%;
+  left: 45%;
+  animation-name: arrow-down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  text-align: center;
+}
+
+@keyframes arrow-down {
+  from {
+    margin-top: 0;
+  }
+
+  to {
+    margin-top: 20px;
+  }
+}
+
+.arrow-down {
+  width: 6.5vw;
+  margin-top: -15px;
+}
+
+/* scroll down finish */
+
 .container {
   width: 100%;
   height: 100vh;
@@ -129,6 +165,7 @@ a.header-list:active {
   overflow: auto;
 }
 
+/* 두 번째 화면 시작 */
 .content {
   width: 100%;
   height: 100vh;
@@ -152,7 +189,14 @@ a.header-list:active {
   position: relative;
 }
 
-/* .content-1-sentence{
+.sentence-hover {
+  color: white;
+  font-family: 'SpoqaHanSansNeo';
+  font-size: 2.0833vw;
+  position: absolute;
+}
+
+.content-1-sentence:hover {
   color: black;
   -webkit-text-stroke: 1px white;
   font-family: 'graphik-bold';
@@ -162,12 +206,7 @@ a.header-list:active {
   left: 7.7083vw;
   top: 18.5417vw;
   position: relative;
-} */
-.sentence-hover {
-  color: white;
-  font-family: 'SpoqaHanSansNeo-normal';
-  font-size: 2.0833vw;
-  position: absolute;
+  transition: 1s;
 }
 
 .sentence-hover-1 {
@@ -191,6 +230,9 @@ a.header-list:active {
   top: 41.1111vw;
 }
 
+/* 두 번째 화면 끝 */
+
+/* 세 번째 화면 시작 */
 .content-2 {
   background-color: white;
   height: 55.5556vw;
