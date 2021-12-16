@@ -29,6 +29,7 @@ header {
   margin-left: 6.25vw;
   padding-bottom: 2.0833vw;
   position: fixed;
+  transition: 0.3s;
 }
 
 .header-all-list {
@@ -42,6 +43,7 @@ header {
   color: black;
   padding: 1.7014vw 0;
   margin-left: 6.25vw;
+  transition: 0.3s;
 }
 
 a.header-list:link {
