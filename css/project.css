@@ -17,7 +17,7 @@ body {
 /* header 시작 */
 header {
   font-family: 'SpoqaHanSansNeo-light';
-  display: flex;
+  z-index: 100;
   height: 6.2083vw;
   justify-content: space-between;
 }
@@ -30,12 +30,14 @@ header {
   padding-bottom: 2.0833vw;
   position: fixed;
   transition: 0.3s;
+
 }
 
 .header-all-list {
   display: flex;
   margin-left: 60vw;
   position: fixed;
+
 }
 
 .header-list {
@@ -96,6 +98,7 @@ a.header-list:active {
   color: white;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .project-box1 {
