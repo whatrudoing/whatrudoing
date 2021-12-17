@@ -10,39 +10,58 @@
   padding: 0;
 }
 
-a {
-  text-decoration:none
+body {
+  background-color: black;
 }
 
+/* header 시작 */
 header {
-  font-family: 'SpoqaHanSansNeo-Regular';
+  font-family: 'SpoqaHanSansNeo-light';
   display: flex;
-  height: 85px;
-  background-color: black;
+  height: 6.2083vw;
   justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 2.4306vw;
+  color: white;
+  padding: 1.0417vw 0;
+  margin-left: 6.25vw;
+  padding-bottom: 2.0833vw;
+  position: fixed;
+  transition: 0.3s;
 }
 
 .header-all-list {
   display: flex;
-  margin-right: 50px;
-}
-
-.header-logo {
-  font-size: 45px;
-  color: white;
-  padding: 15px 0;
-  margin-left: 50px;
-
+  margin-left: 60vw;
+  position: fixed;
 }
 
 .header-list {
-  font-size: 30px;
+  font-size: 1.3889vw;
   color: white;
-  padding: 24.5px 0;
-  margin-left: 50px;
+  padding: 1.7014vw 0;
+  margin-left: 6.25vw;
+  transition: 0.5s;
 }
 
-a.header-list:link    { text-decoration:none }
-a.header-list:visited { text-decoration:none }
-a.header-list:hover   { text-decoration:underline }
-a.header-list:active  { text-decoration:none }
+a {
+  text-decoration: none
+}
+
+a.header-list:link {
+  text-decoration: none
+}
+
+a.header-list:visited {
+  text-decoration: none
+}
+
+a.header-list:hover {
+  text-decoration: underline
+}
+
+a.header-list:active {
+  text-decoration: none
+}

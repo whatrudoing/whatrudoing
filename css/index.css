@@ -10,10 +10,6 @@
   padding: 0;
 }
 
-a {
-  text-decoration: none
-}
-
 /* header 시작 */
 header {
   font-family: 'SpoqaHanSansNeo-light';
@@ -43,7 +39,11 @@ header {
   color: black;
   padding: 1.7014vw 0;
   margin-left: 6.25vw;
-  transition: 0.3s;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none
 }
 
 a.header-list:link {
@@ -173,7 +173,7 @@ a.header-list:active {
   scroll-snap-align: start;
 }
 
-.content-1 {
+.secondpage {
   background-color: black;
   height: 55.5556vw;
 }
@@ -246,7 +246,7 @@ a.header-list:active {
 /* 두 번째 화면 끝 */
 
 /* 세 번째 화면 시작 */
-.content-2 {
+.thirdpage {
   background-color: white;
   height: 55.5556vw;
 }
@@ -262,6 +262,7 @@ a.header-list:active {
   margin-top: 20%;
   font-family: 'SpoqaHanSansNeo-light';
   font-size: 30px;
+  color: black;
   align-items: center;
   justify-content: center;
 }
@@ -277,3 +278,21 @@ a.header-list:active {
 #circle3 {
   left: 1036px;
 }
+
+a.circle:link {
+  text-decoration: none;
+}
+
+a.circle:visited {
+  text-decoration: none;
+}
+
+/* a.circle:hover {
+ 
+} */
+
+a.circle:active {
+  text-decoration: none;
+}
+
+/* 세 번째 화면 끝 */
