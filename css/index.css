@@ -250,3 +250,30 @@ a.header-list:active {
   background-color: white;
   height: 55.5556vw;
 }
+
+.circle {
+  background-color: none;
+  width: 280px;
+  height: 280px;
+  border: black 1px solid;
+  border-radius: 150px;
+  position: absolute;
+  display: flex;
+  margin-top: 20%;
+  font-family: 'SpoqaHanSansNeo-light';
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle1 {
+  left: 124px;
+}
+
+#circle2 {
+  left: 580px;
+}
+
+#circle3 {
+  left: 1036px;
+}
