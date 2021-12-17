@@ -124,10 +124,10 @@ a.header-list:active {
 
 .scroll-down {
   position: absolute;
-  font-size: 15px;
+  font-size: 1.0417vw;
   /* font-family: ; */
-  height: 20px;
-  width: 100px;
+  height: 1.3889vw;
+  width: 6.9444vw;
   color: black;
   top: 87%;
   left: 45%;
@@ -145,13 +145,13 @@ a.header-list:active {
   }
 
   to {
-    margin-top: 20px;
+    margin-top: 1.3889vw;
   }
 }
 
 .arrow-down {
   width: 6.5vw;
-  margin-top: -15px;
+  margin-top: -1.0417vw;
 }
 
 /* scroll down finish */
@@ -184,16 +184,23 @@ a.header-list:active {
   font-size: 8.3333vw;
   width: 84.6528vw;
   height: 9.1667vw;
-  left: 7.7083vw;
+  left: 8.5vw;
   top: 18.5417vw;
   position: relative;
+  z-index: 2;
 }
 
 .sentence-hover {
   color: white;
-  font-family: 'SpoqaHanSansNeo';
-  font-size: 2.0833vw;
-  position: absolute;
+  font-family: 'SpoqaHanSansNeo-light';
+  font-size: 2vw;
+  position: relative;
+  left: 4vw;
+  width: 28.4722vw;
+  margin: auto;
+  z-index: 0;
+  opacity: 0;
+  padding-top: 15.9722vw;
 }
 
 .content-1-sentence:hover {
@@ -203,10 +210,16 @@ a.header-list:active {
   font-size: 8.3333vw;
   width: 84.6528vw;
   height: 9.1667vw;
-  left: 7.7083vw;
-  top: 18.5417vw;
+  left: 8.5vw;
+  top: 15vw;
   position: relative;
   transition: 1s;
+}
+
+.content-1-sentence:hover+.sentence-hover {
+  padding-top: 20.8333vw;
+  transition: 1s;
+  opacity: 1;
 }
 
 .sentence-hover-1 {
