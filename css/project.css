@@ -10,39 +10,188 @@
   padding: 0;
 }
 
-a {
-  text-decoration:none
+body {
+  background-color: black;
 }
 
+/* header 시작 */
 header {
-  font-family: 'SpoqaHanSansNeo-Regular';
+  font-family: 'SpoqaHanSansNeo-light';
   display: flex;
-  height: 85px;
-  background-color: black;
+  height: 6.2083vw;
   justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 2.4306vw;
+  color: white;
+  padding: 1.0417vw 0;
+  margin-left: 6.25vw;
+  padding-bottom: 2.0833vw;
+  position: fixed;
+  transition: 0.3s;
 }
 
 .header-all-list {
   display: flex;
-  margin-right: 50px;
-}
-
-.header-logo {
-  font-size: 45px;
-  color: white;
-  padding: 15px 0;
-  margin-left: 50px;
-
+  margin-left: 60vw;
+  position: fixed;
 }
 
 .header-list {
-  font-size: 30px;
+  font-size: 1.3889vw;
   color: white;
-  padding: 24.5px 0;
-  margin-left: 50px;
+  padding: 1.7014vw 0;
+  margin-left: 6.25vw;
+  transition: 0.5s;
 }
 
-a.header-list:link    { text-decoration:none }
-a.header-list:visited { text-decoration:none }
-a.header-list:hover   { text-decoration:underline }
-a.header-list:active  { text-decoration:none }
+a {
+  text-decoration: none
+}
+
+a.header-list:link {
+  text-decoration: none
+}
+
+a.header-list:visited {
+  text-decoration: none
+}
+
+a.header-list:hover {
+  text-decoration: underline
+}
+
+a.header-list:active {
+  text-decoration: none
+}
+
+/* header 끝 */
+
+.keyword {
+  font-family: 'SpoqaHanSansNeo';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 636px;
+  top: 152px;
+}
+
+.project-box {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 27px;
+  width: 300px;
+  height: 194px;
+  top: 267px;
+  border: 1px solid #FFFFFF;
+  background-color: none;
+  font-family: 'SpoqaHanSansNeo-light';
+  font-size: 18px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-box1 {
+  left: 786px;
+}
+
+.project-box2 {
+  left: 355px;
+}
+
+.project-box3 {
+  left: 786px;
+}
+
+.project-box4 {
+  left: 355px;
+}
+
+.project-box5 {
+  left: 786px;
+}
+
+.project-box6 {
+  left: 355px;
+}
+
+.project-box7 {
+  left: 786px;
+}
+
+.project-box8 {
+  left: 355px;
+}
+
+.project-box9 {
+  left: 786px;
+}
+
+.project-box10 {
+  left: 355px;
+}
+
+.line {
+  position: absolute;
+  width: 2px;
+  height: 1750px;
+  left: 724px;
+  top: 450px;
+  background-color: white;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 150px;
+  position: absolute;
+  left: 714.5px;
+  background-color: white;
+}
+
+.circle1 {
+  top: 450px;
+}
+
+.circle2 {
+  top: 630px;
+}
+
+.circle3 {
+  top: 835px;
+}
+
+.circle4 {
+  top: 1020px;
+}
+
+.circle5 {
+  top: 1220px;
+}
+
+.circle6 {
+  top: 1410px;
+}
+
+.circle7 {
+  top: 1610px;
+}
+
+.circle8 {
+  top: 1800px;
+}
+
+.circle9 {
+  top: 2010px;
+}
+
+.circle10 {
+  top: 2190px;
+}
