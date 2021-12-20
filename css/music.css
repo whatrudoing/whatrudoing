@@ -14,31 +14,31 @@
 header {
   font-family: 'SpoqaHanSansNeo-light';
   display: flex;
-  height: 6.2083vw;
+  height: 89.3995px;
   justify-content: space-between;
 }
 
 .header-logo {
-  font-size: 2.4306vw;
+  font-size: 35.0006px;
   color: black;
-  padding: 1.0417vw 0;
-  margin-left: 6.25vw;
-  padding-bottom: 2.0833vw;
+  padding: 15.0005px 0;
+  margin-left: 90px;
+  padding-bottom: 29.9995px;
   position: fixed;
   transition: 0.3s;
 }
 
 .header-all-list {
   display: flex;
-  margin-left: 60vw;
+  margin-left: 864px;
   position: fixed;
 }
 
 .header-list {
-  font-size: 1.3889vw;
+  font-size: 20.0002px;
   color: black;
-  padding: 1.7014vw 0;
-  margin-left: 6.25vw;
+  padding: 24.5002px 0;
+  margin-left: 90px;
   transition: 0.5s;
 }
 
@@ -62,23 +62,43 @@ a.header-list:active {
   text-decoration: none
 }
 
-/* .all-music-photo {
-  display: flex;
-} */
+/* header 끝 */
 
-.all-music-photo {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-.musicLine {
-  width: fit-content;
-  display: flex;
-  align-items: center;
-}
-
+/* music photo 시작 */
 .music-photo {
-  width: 300px;
+  width: 20.8333vw;
+  height: 20.8333vw;
+  position: absolute;
 }
+
+.never-not {
+  left: 12.3611vw;
+  top: 10.4167vw;
+}
+
+.a-book-of-love {
+  left: 39.5833vw;
+  top: 10.4167vw;
+}
+
+.개화 {
+  left: 66.8056vw;
+  top: 10.3472vw;
+}
+
+.viva-la-vida {
+  top: 29.8611vw;
+  left: 12.3611vw;
+}
+
+.사랑하기-때문에 {
+  top: 29.8611vw;
+  left: 39.5833vw;
+}
+
+.a-thousand-years {
+  top: 29.8611vw;
+  left: 66.8056vw;
+}
+
+/* music photo 끝 */
