@@ -65,3 +65,69 @@ a.header-list:hover {
 a.header-list:active {
   text-decoration: none
 }
+
+/* header 끝 */
+
+/* photo start*/
+.all-photo {
+  position: absolute;
+}
+
+.napkin {
+  width: 296px;
+  height: 244px;
+  left: 24px;
+}
+
+.pocari {
+  width: 288px;
+  height: 134px;
+}
+
+.blackchair {
+  width: 405px;
+  height: 180px;
+}
+
+.bottle {
+  width: 270px;
+  height: 422px;
+  left: 817px;
+}
+
+.coffee {
+  width: 289px;
+  height: 273px;
+  left: 1124px;
+}
+
+.floor {
+  width: 405px;
+  height: 226px;
+  left: 24px;
+}
+
+.kanto {
+  width: 416px;
+  height: 244px;
+  left: 357px;
+}
+
+.speaker {
+  width: 270px;
+  height: 273px;
+}
+
+.stairs {
+  width: 289px;
+  height: 244px;
+  left: 1124px;
+}
+
+.fireextinguisher {
+  width: 309px;
+  height: 356px;
+  left: 464px;
+}
+
+/* photo 끝 */
