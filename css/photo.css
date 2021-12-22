@@ -75,71 +75,71 @@ a.header-list:active {
 }
 
 .napkin {
-  width: 296px;
-  height: 244px;
-  left: 24px;
-  margin-top: 20px;
+  width: 20.5556vw;
+  height: 16.9444vw;
+  left: 1.6667vw;
+  margin-top: 1.3889vw;
   margin: 0.8rem;
 }
 
 .pocari {
-  width: 288px;
-  height: 134px;
+  width: 20vw;
+  height: 9.3056vw;
   margin: 0.8rem;
 }
 
 .blackchair {
-  width: 405px;
-  height: 180px;
+  width: 28.125vw;
+  height: 12.5vw;
   margin: 0.8rem;
 }
 
 .bottle {
-  width: 270px;
-  height: 422px;
-  left: 817px;
+  width: 18.75vw;
+  height: 29.3056vw;
+  left: 56.7361vw;
   margin: 0.8rem;
 }
 
 .coffee {
-  width: 289px;
-  height: 273px;
-  left: 1124px;
+  width: 20.0694vw;
+  height: 18.9583vw;
+  left: 78.0556vw;
   margin: 0.8rem;
 }
 
 .floor {
-  width: 405px;
-  height: 226px;
-  left: 24px;
+  width: 28.125vw;
+  height: 15.6944vw;
+  left: 1.6667vw;
   margin: 0.8rem;
 }
 
 .kanto {
-  width: 416px;
-  height: 244px;
-  left: 357px;
-  top: 130px;
+  width: 28.8889vw;
+  height: 16.9444vw;
+  left: 24.7917vw;
+  top: 9.0278vw;
   margin: 0.8rem;
 }
 
 .speaker {
-  width: 270px;
-  height: 273px;
+  width: 18.75vw;
+  height: 18.9583vw;
   margin: 0.8rem;
 }
 
 .stairs {
-  width: 289px;
-  height: 244px;
-  left: 1124px;
+  width: 20.0694vw;
+  height: 16.9444vw;
+  left: 78.0556vw;
   margin: 0.8rem;
 }
 
 .fireextinguisher {
-  width: 309px;
-  height: 356px;
-  left: 464px;
+  width: 21.4583vw;
+  height: 24.7222vw;
+  left: 32.2222vw;
   margin: 0.8rem;
 }
 

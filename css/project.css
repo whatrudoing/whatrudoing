@@ -74,27 +74,27 @@ a.header-list:active {
   font-family: 'SpoqaHanSansNeo';
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.7778vw;
   color: white;
   position: absolute;
-  width: 181px;
-  height: 50px;
-  left: 636px;
-  top: 152px;
+  width: 12.5694vw;
+  height: 3.4722vw;
+  left: 44.1667vw;
+  top: 10.5556vw;
 }
 
 .project-box {
   position: relative;
   display: flex;
   box-sizing: border-box;
-  border-radius: 27px;
-  width: 300px;
-  height: 194px;
-  top: 267px;
-  border: 1px solid #FFFFFF;
+  border-radius: 1.875vw;
+  width: 20.8333vw;
+  height: 13.4722vw;
+  top: 18.5417vw;
+  border: 0.0694vw solid #FFFFFF;
   background-color: none;
   font-family: 'SpoqaHanSansNeo-light';
-  font-size: 18px;
+  font-size: 1.25vw;
   color: white;
   align-items: center;
   justify-content: center;
@@ -102,99 +102,99 @@ a.header-list:active {
 }
 
 .project-box1 {
-  left: 786px;
+  left: 54.5833vw;
 }
 
 .project-box2 {
-  left: 355px;
+  left: 24.6528vw;
 }
 
 .project-box3 {
-  left: 786px;
+  left: 54.5833vw;
 }
 
 .project-box4 {
-  left: 355px;
+  left: 24.6528vw;
 }
 
 .project-box5 {
-  left: 786px;
+  left: 54.5833vw;
 }
 
 .project-box6 {
-  left: 355px;
+  left: 24.6528vw;
 }
 
 .project-box7 {
-  left: 786px;
+  left: 54.5833vw;
 }
 
 .project-box8 {
-  left: 355px;
+  left: 24.6528vw;
 }
 
 .project-box9 {
-  left: 786px;
+  left: 54.5833vw;
 }
 
 .project-box10 {
-  left: 355px;
+  left: 24.6528vw;
 }
 
 .line {
   position: absolute;
-  width: 2px;
-  height: 1750px;
-  left: 724px;
-  top: 450px;
+  width: 0.1389vw;
+  height: 121.5278vw;
+  left: 50.2778vw;
+  top: 31.25vw;
   background-color: white;
 }
 
 .circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 150px;
+  width: 1.3889vw;
+  height: 1.3889vw;
+  border-radius: 10.4167vw;
   position: absolute;
-  left: 714.5px;
+  left: 49.6181vw;
   background-color: white;
 }
 
 .circle1 {
-  top: 450px;
+  top: 31.25vw;
 }
 
 .circle2 {
-  top: 630px;
+  top: 43.75vw;
 }
 
 .circle3 {
-  top: 835px;
+  top: 57.9861vw;
 }
 
 .circle4 {
-  top: 1020px;
+  top: 70.8333vw;
 }
 
 .circle5 {
-  top: 1220px;
+  top: 84.7222vw;
 }
 
 .circle6 {
-  top: 1410px;
+  top: 97.9167vw;
 }
 
 .circle7 {
-  top: 1610px;
+  top: 111.8056vw;
 }
 
 .circle8 {
-  top: 1800px;
+  top: 125vw;
 }
 
 .circle9 {
-  top: 2010px;
+  top: 139.5833vw;
 }
 
 .circle10 {
-  top: 2190px;
+  top: 152.0833vw;
 }
