@@ -68,79 +68,76 @@ a.header-list:active {
 
 /* header 끝 */
 
+body {
+  overflow: hidden;
+}
+
 /* photo start*/
 .all-photo {
-  position: relative;
-  display: block;
+  width: 1440px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(80, 1vw);
+  grid-template-rows: repeat(80, 1vw);
+  object-fit: cover;
 }
 
 .napkin {
-  width: 20.5556vw;
-  height: 16.9444vw;
-  left: 1.6667vw;
-  margin-top: 1.3889vw;
-  margin: 0.8rem;
+  grid-column-start: 3;
+  grid-row-start: 1;
 }
 
 .pocari {
-  width: 20vw;
-  height: 9.3056vw;
-  margin: 0.8rem;
+  grid-column-start: 78;
+  grid-row-start: 42;
 }
 
 .blackchair {
-  width: 28.125vw;
-  height: 12.5vw;
-  margin: 0.8rem;
+  grid-column-start: 3;
+  grid-row-start: 38;
 }
 
 .bottle {
-  width: 18.75vw;
-  height: 29.3056vw;
-  left: 56.7361vw;
-  margin: 0.8rem;
+  grid-column-start: 57;
+  grid-row-start: 1;
 }
 
 .coffee {
-  width: 20.0694vw;
-  height: 18.9583vw;
-  left: 78.0556vw;
-  margin: 0.8rem;
+  grid-column-start: 78;
+  grid-row-start: 20;
 }
 
 .floor {
-  width: 28.125vw;
-  height: 15.6944vw;
-  left: 1.6667vw;
-  margin: 0.8rem;
+  grid-column-start: 3;
+  grid-row-start: 20;
 }
 
 .kanto {
-  width: 28.8889vw;
-  height: 16.9444vw;
-  left: 24.7917vw;
-  top: 9.0278vw;
-  margin: 0.8rem;
+  grid-column-start: 26;
+  grid-row-start: 1;
 }
 
 .speaker {
-  width: 18.75vw;
-  height: 18.9583vw;
-  margin: 0.8rem;
+  grid-column-start: 57;
+  grid-row-start: 33;
 }
 
 .stairs {
-  width: 20.0694vw;
-  height: 16.9444vw;
-  left: 78.0556vw;
-  margin: 0.8rem;
+  grid-column-start: 78;
+  grid-row-start: 1;
 }
 
 .fireextinguisher {
-  width: 21.4583vw;
-  height: 24.7222vw;
-  left: 32.2222vw;
-  margin: 0.8rem;
+  grid-column-start: 33;
+  grid-row-start: 20;
 }
 
 /* photo 끝 */
+
+.logo {
+  color: white;
+  font-family: 'SpoqaHanSansNeo-light';
+  font-size: 45px;
+  grid-column-start: 40;
+  grid-row-start: 45;
+}
