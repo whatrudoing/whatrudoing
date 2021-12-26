@@ -77,7 +77,8 @@ var Player = function() {
 
       },
       loadTrack: function() {
-          audio.src = path.audio + playlist.slug + '/' + playlist.tracks[index].file;
+          audio.src =  "./audio/" + playlist.tracks[index].file;
+          //"./audio/Not-okay.mp3"
           $displayArtistName.text(playlist.tracks[index].artist);
           $displayAlbumName.text(playlist.tracks[index].album);
           $displaySongName.text(playlist.tracks[index].song);
@@ -146,37 +147,37 @@ var playlists = {
               "artist": "하현상",
               "album": "Calibrate",
               "song": "하이웨이",
-              "file": "another-monster-drop-it-low.mp3"
+              "file": "IntroRise.mp3"
           }, {
               "track": 2,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "등대",
-              "file": "george-antonios-signals-in-the-dark.mp3"
+              "file": ""
           }, {
               "track": 3,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "파랑 골목",
-              "file": "hypercube-analog-circuits.mp3"
+              "file": ""
           }, {
               "track": 4,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "죽은 새",
-              "file": "klarity-second-nature.mp3"
+              "file": ""
           }, {
               "track": 5,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "데려가 줘",
-              "file": "clerks-drama.mp3"
+              "file": ""
           }, {
               "track": 6,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "어떤 이의 편지",
-              "file": "m00dy-voyage.mp3"
+              "file": ""
           }  
       ]
   },
@@ -189,31 +190,31 @@ var playlists = {
               "artist": "하현상",
               "album": "My Poor Lonely Heart",
               "song": "Dawn",
-              "file": "commence.mp3"
+              "file": ""
           }, {
               "track": 2,
               "artist": "하현상",
               "album": "My Poor Lonely Heart",
               "song": "Where Are You Now",
-              "file": "bouncy-green-slime.mp3"
+              "file": ""
           },{
             "track": 3,
             "artist": "하현상",
             "album": "My Poor Lonely Heart",
             "song": "Gone Tonight",
-            "file": "commence.mp3"
+            "file": ""
         }, {
             "track": 4,
             "artist": "하현상",
             "album": "My Poor Lonely Heart",
             "song": "Koh Samed",
-            "file": "bouncy-green-slime.mp3"
+            "file": ""
         },{
           "track": 5,
           "artist": "하현상",
           "album": "My Poor Lonely Heart",
           "song": "망가지려나",
-          "file": "commence.mp3"
+          "file": ""
       }
       ]
   },
@@ -226,31 +227,31 @@ var playlists = {
               "artist": "하현상",
               "album": "The Edge",
               "song": "Intro: Rise",
-              "file": "fake-empire.mp3"
+              "file": "IntroRise.mp3"
           }, {
               "track": 2,
               "artist": "하현상",
               "album": "The Edge",
               "song": "Nostalgia (Feat.Rohann)",
-              "file": "mistaken-for-strangers.mp3"
+              "file": ""
           },{
             "track": 3,
             "artist": "하현상",
             "album": "The Edge",
             "song": "A book of love",
-            "file": "fake-empire.mp3"
+            "file": "ABookofLove.mp3"
         }, {
             "track": 4,
             "artist": "하현상",
             "album": "The Edge",
             "song": "Not okay",
-            "file": "mistaken-for-strangers.mp3"
+            "file": "NotOkay.mp3"
         },{
           "track": 5,
           "artist": "하현상",
           "album": "The Edge",
           "song": "Close",
-          "file": "fake-empire.mp3"
+          "file": "Close.mp3"
       }
           
       ]
