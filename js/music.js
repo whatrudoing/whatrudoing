@@ -147,37 +147,37 @@ var playlists = {
               "artist": "하현상",
               "album": "Calibrate",
               "song": "하이웨이",
-              "file": "IntroRise.mp3"
+              "file": "HighWay.mp3"
           }, {
               "track": 2,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "등대",
-              "file": ""
+              "file": "Lighthouse.mp3"
           }, {
               "track": 3,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "파랑 골목",
-              "file": ""
+              "file": "BlueAlley.mp3"
           }, {
               "track": 4,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "죽은 새",
-              "file": ""
+              "file": "DeadBird.mp3"
           }, {
               "track": 5,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "데려가 줘",
-              "file": ""
+              "file": "BringMeBack.mp3"
           }, {
               "track": 6,
               "artist": "하현상",
               "album": "Calibrate",
               "song": "어떤 이의 편지",
-              "file": ""
+              "file": "ALetterFromSomeone.mp3"
           }  
       ]
   },
@@ -190,31 +190,31 @@ var playlists = {
               "artist": "하현상",
               "album": "My Poor Lonely Heart",
               "song": "Dawn",
-              "file": ""
+              "file": "Dawn.mp3"
           }, {
               "track": 2,
               "artist": "하현상",
               "album": "My Poor Lonely Heart",
               "song": "Where Are You Now",
-              "file": ""
+              "file": "WhereAreYouNow.mp3"
           },{
             "track": 3,
             "artist": "하현상",
             "album": "My Poor Lonely Heart",
             "song": "Gone Tonight",
-            "file": ""
+            "file": "GoneTonight.mp3"
         }, {
             "track": 4,
             "artist": "하현상",
             "album": "My Poor Lonely Heart",
             "song": "Koh Samed",
-            "file": ""
+            "file": "KohSamed.mp3"
         },{
           "track": 5,
           "artist": "하현상",
           "album": "My Poor Lonely Heart",
           "song": "망가지려나",
-          "file": ""
+          "file": "BreakDown.mp3"
       }
       ]
   },
@@ -233,7 +233,7 @@ var playlists = {
               "artist": "하현상",
               "album": "The Edge",
               "song": "Nostalgia (Feat.Rohann)",
-              "file": ""
+              "file": "Nostalgia.mp3"
           },{
             "track": 3,
             "artist": "하현상",
