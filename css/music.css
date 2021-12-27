@@ -20,7 +20,7 @@ header {
 
 .header-logo {
   font-size: 2.4306vw;
-  color: black;
+  color: #292424;
   padding: 1.0417vw 0;
   margin-left: 6.25vw;
   padding-bottom: 2.0833vw;
@@ -36,7 +36,7 @@ header {
 
 .header-list {
   font-size: 1.3889vw;
-  color: black;
+  color: #292424;
   padding: 1.7014vw 0;
   margin-left: 6.25vw;
   transition: 0.5s;
