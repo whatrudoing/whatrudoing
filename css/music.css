@@ -103,7 +103,7 @@ html {
   transition: all 250ms ease-in-out;
   background: #777;
   bottom: 12px;
-  box-shadow: 0 15px 23px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 23px #5e6062;
   content: "";
   height: 10px;
   left: 2%;
@@ -207,7 +207,7 @@ html {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background-color: black;
+  background-color: #5e6062;
   content: "";
   height: 100%;
   width: 50%;
@@ -282,7 +282,7 @@ html {
 
 .player__controls-item--play:hover .rectangle:before,
 .player__controls-item--play:hover .rectangle:after {
-  background-color: black;
+  background-color: #5e6062;
 }
 
 .player__controls-item--next,
@@ -312,7 +312,7 @@ html {
 
 .player__controls-item--next:before,
 .player__controls-item--next:after {
-  border-left: 26px solid black;
+  border-left: 26px solid #5e6062;
 }
 
 .player__controls-item--next:before {
@@ -325,12 +325,12 @@ html {
 
 .player__controls-item--next:hover:before,
 .player__controls-item--next:hover:after {
-  border-left-color: black;
+  border-left-color: #5e6062;
 }
 
 .player__controls-item--prev:before,
 .player__controls-item--prev:after {
-  border-right: 26px solid black;
+  border-right: 26px solid #5e6062;
 }
 
 .player__controls-item--prev:before {
@@ -343,7 +343,7 @@ html {
 
 .player__controls-item--prev:hover:before,
 .player__controls-item--prev:hover:after {
-  border-right-color: black;
+  border-right-color: #5e6062;
 }
 
 .album {
