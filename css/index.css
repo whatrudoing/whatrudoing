@@ -287,12 +287,26 @@ a.circle:visited {
   text-decoration: none;
 }
 
-/* a.circle:hover {
- 
-} */
-
 a.circle:active {
   text-decoration: none;
+}
+
+#circle1:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#circle2:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#circle3:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
 }
 
 /* 세 번째 화면 끝 */
