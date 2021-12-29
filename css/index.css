@@ -43,23 +43,23 @@ header {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 a.header-list:link {
-  text-decoration: none
+  text-decoration: none;
 }
 
 a.header-list:visited {
-  text-decoration: none
+  text-decoration: none;
 }
 
 a.header-list:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 a.header-list:active {
-  text-decoration: none
+  text-decoration: none;
 }
 
 /* header 끝 */
