@@ -74,48 +74,50 @@ a.header-list:active {
   position: relative;
   text-align: center;
   height: 49vw;
-  margin-left: 8vw;
-  margin-right: 8vw;
+  /* margin-left: 8vw;
+  margin-right: 8vw; */
+  /* width: 100%;
+  height: 100vh; */
 }
 
 .main-page-words-1 {
-  width: 21.5278vw;
-  height: 9.1667vw;
+  width: 310.0003px;
+  height: 132.0005px;
   position: absolute;
-  left: 2.5694vw;
-  top: 1.3889vw;
+  left: 132px;
+  top: 40px;
 }
 
 .main-page-words-2 {
-  width: 13.3333vw;
-  height: 9.1667vw;
+  width: 191.9995px;
+  height: 132.0005px;
   position: absolute;
-  left: 38.3889vw;
-  top: 14.4028vw;
+  left: 650px;
+  top: 230px;
 }
 
 .main-page-words-3 {
-  width: 15.0694vw;
-  height: 9.1667vw;
+  width: 216.9994px;
+  height: 132.0005px;
   position: absolute;
-  left: 4.5972vw;
-  bottom: 11.0833vw;
+  left: 130px;
+  bottom: 230px;
 }
 
 .main-page-words-4 {
-  width: 23.5417vw;
-  height: 9.1667vw;
+  width: 339.0005px;
+  height: 132.0005px;
   position: absolute;
-  right: 2.5vw;
-  bottom: 6.25vw;
+  right: 100px;
+  bottom: 210px;
 }
 
 .main-page-words-5 {
-  width: 4.6528vw;
-  height: 9.1667vw;
+  width: 67.0003px;
+  height: 132.0005px;
   position: absolute;
-  top: 2.7083vw;
-  right: 5.9722vw;
+  top: 40px;
+  right: 150px;
 }
 
 /* 메인페이지 what are you doing? 단어 분할 화면 끝 */
@@ -309,4 +311,15 @@ a.circle:active {
   transition: 0.3s;
 }
 
+
 /* 세 번째 화면 끝 */
+
+.drag-box {
+  position: absolute;
+  text-align: center;
+}
+
+.drop-box {
+  width: 1440px;
+  height: 800px;
+}
