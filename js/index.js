@@ -23,28 +23,7 @@ headers.forEach(function(header){
   })
 }) 
 
-// function drag_handler(event) {
-//   //  ondrag =  드래그할때 동작 
-//       console.log("Drag");
-//       console.log(event.target.getAttribute("id"))
-//       currentDraggingID = event.target.getAttribute("id") 
-//   }
-//   function dragover_handler(event) {
-//     //ondragover = draggable 엘리먼트가 drop영역위에 올라가면 
-//      console.log("dragOver");
-//      event.preventDefault();
-//   }
-          
-//   function drop_handler(event) {
-//     //ondrop = draggable 엘리먼트를 drop영역위에 떨어트리면
-//      console.log("droooop!");
-     
-//      document.getElementsByClassName("drag-box")[currentDraggingID].style.top=event.layerY+"px";
-//      document.getElementsByClassName("drag-box")[currentDraggingID].style.left=event.layerX+"px";
-//       event.preventDefault();
-//   }
 
-  // 5개
   dragTargets.forEach(function(dragTarget) {
     dragTarget.addEventListener('mousedown', function(e) {
       e.preventDefault();
