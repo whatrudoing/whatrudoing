@@ -83,6 +83,17 @@ a.header-list:active {
   top: 10.5556vw;
 }
 
+
+.notice {
+  font-family: 'SpoqaHanSansNeo';
+  font-style: normal;
+  font-size: 17px;
+  color: white;
+  position: absolute;
+  left: 44.8vw;
+  top: 14.3vw;
+}
+
 .project-box {
   position: relative;
   display: flex;
